@@ -1,0 +1,36 @@
+---
+label: Explore
+hide_body: true
+fields:
+- name: leading_text
+  type: text
+  config:
+    required: false
+  label: Leading Text
+- name: items
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: true
+    label: Name
+  - name: image
+    type: file
+    config:
+      maxSize: 250
+    label: Image
+  - name: body
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Body
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Items
