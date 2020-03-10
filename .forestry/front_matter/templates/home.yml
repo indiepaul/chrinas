@@ -25,3 +25,5 @@ fields:
     max: 
     labelField: 
   label: Slides
+pages:
+- pages/home.md
