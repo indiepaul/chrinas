@@ -5,10 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: pages/explore
+  path: pages/explore.md
   label: Explore
 - type: document
-  path: pages/home
+  path: pages/home.md
   label: Home Page
 upload_dir: chrinas
 public_path: "/chrinas"
