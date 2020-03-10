@@ -1,4 +1,27 @@
 ---
 label: Home
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: slides
+  type: field_group_list
+  fields:
+  - name: text
+    type: text
+    config:
+      required: false
+    label: Text
+  - name: image
+    type: file
+    config:
+      maxSize: 250
+    label: Image
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Slides
