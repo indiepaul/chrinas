@@ -7,15 +7,13 @@ sections:
 - type: document
   path: pages/explore
   label: Explore
-  match: "**/*"
 - type: document
   path: pages/home
   label: Home Page
-  match: "**/*"
-upload_dir: uploads
-public_path: "/uploads"
+upload_dir: chrinas
+public_path: "/chrinas"
 front_matter_path: ''
-use_front_matter_path: false
+use_front_matter_path: 
 file_template: ":filename:"
 build:
   install_dependencies_command: npm install
